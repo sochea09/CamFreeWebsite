@@ -1,0 +1,40 @@
+header .affix {
+  padding: 0px;
+  transition: all 0.3s linear 0s;
+}
+
+header .affix-top {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: all 0.3s linear 0s;
+}
+
+header .right-inner-addon input {
+  padding-right: 30px;
+}
+
+header .right-inner-addon i {
+  position: absolute;
+  right: 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+header .navbar-default {
+  background-color: #fff;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid #8bb33f;
+}
+
+#main .nav-stacked .caret-container {
+  float: right;
+}
+
+html,
+body {
+  background-color: #F8F8F8;
+}
+
+#wrapper #main {
+  padding-top: 100px;
+}

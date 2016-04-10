@@ -1,0 +1,32 @@
+@import "../constants";
+header {
+  .affix {
+    padding: 0px;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+  }
+  .affix-top {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+  }
+  .right-inner-addon input {
+    padding-right: 30px;
+  }
+  .right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .navbar-default{
+    background-color: $bg_hd_color;
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,0.15);
+    border-bottom: 1px solid $main_color;
+  }
+}

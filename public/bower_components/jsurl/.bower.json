@@ -1,0 +1,24 @@
+{
+  "name": "jsurl",
+  "version": "1.2.7",
+  "main": "url.js",
+  "ignore": [
+    ".project",
+    "test.html",
+    "bower.json",
+    "package.json",
+    "README.md",
+    ".idea",
+    ".gitignore"
+  ],
+  "homepage": "https://github.com/Mikhus/jsurl",
+  "_release": "1.2.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.7",
+    "commit": "f31676c6623bf5a0ad3ba05e7614aff6f20989d0"
+  },
+  "_source": "git://github.com/Mikhus/jsurl.git",
+  "_target": "*",
+  "_originalSource": "jsurl"
+}
