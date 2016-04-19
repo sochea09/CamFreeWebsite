@@ -23,6 +23,7 @@
     "jquery-validation": "~1.14.0",
     "jsurl": "*",
     "slick-carousel": "~1.5.8",
-    "tinymce": "~4.3.2"
+    "tinymce": "~4.3.2",
+    "socket.io-client": "~1.4.5"
   }
 }

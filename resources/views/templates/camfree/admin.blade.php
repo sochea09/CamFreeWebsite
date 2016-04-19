@@ -44,6 +44,12 @@
     <?php // ================ Run App ========================= ?>
     {!! Html::script(URL::asset('javascripts/modules/frontend-module/run.js')) !!}
 
+    <script>
+        var baseUrl = "{{ URL::to('/') }}";
+        var basePath = "{{ Route::getCurrentRoute()->getPath() }}";
+        var imgPath = "{{ asset('image/') }}";
+    </script>
+
     @yield('script')
 </div>{{--end wrapper--}}
 </body>
